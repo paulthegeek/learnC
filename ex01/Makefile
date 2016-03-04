@@ -1,6 +1,6 @@
 CFLAGS=-Wall -g
 
 all:
-	rm -f ex01
-	rm -rf ex01.dSYM
-	make ex01
+	rm -f ex1
+	rm -rf ex1.dSYM
+	make ex1
