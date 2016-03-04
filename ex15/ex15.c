@@ -5,8 +5,6 @@ int main(int argc, char *argv[]) {
   char *names[] = {"Alan", "Frank", "Mary", "John", "Lisa"};
 
   int count = sizeof(ages) / sizeof(int);
-  printf("Age Size: %lu\n", sizeof(ages));
-  printf("Int Size: %lu\n", sizeof(int));
   int i = 0;
 
   for(i = 0; i < count; i++) {
